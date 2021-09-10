@@ -6,37 +6,37 @@ input_values = [
     # Test case 1
     (
         # Inputs
-        ["25", "34", "0", "20", "-7"],
+        ["1.82", "H", "s", "1.67", "M", "s", "1.59", "M", "s","1.68", "H", "s","1.75", "M", "n"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "Tecleaste 3 múltiplos de 5"],
+        ["Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ", "Promedio de estatura mujeres: 1.67" ],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes contando y acumulando los datos adecuados para el cálculo del promedio"
     ),
     # Test case 2
     (
-       # Inputs
-        ["12", "34", "1", "-1"],
+        # Inputs
+        ["1.82", "H", "s", "1.67", "H", "s", "1.59", "H", "s","1.68", "H", "s", "1.75", "H", "n"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ", "Altura: ", "Sexo: ","¿Otro dato? ", "No capturaste mujeres" ],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes contando y acumulando los datos adecuados para el cálculo del promedio"
     ),
     # Test case 3
     (
-        # Inputs
-        ["-100"],
+         # Inputs
+        ["1.82", "M", "n"],
         # Outputs
-        ["Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Altura: ", "Sexo: ","¿Otro dato? ", "Promedio de estatura mujeres: 1.82" ],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes contando y acumulando los datos adecuados para el cálculo del promedio"
     ),
     # Test case 4
     (
-        # Inputs
-        ["0", "-100"],
+         # Inputs
+        ["1.82", "M", "s", "1.67", "M", "s", "1.59", "M", "n"],
         # Outputs
-        ["Número: ", "Número: ", "Tecleaste 1 múltiplos de 5"],
+        ["Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ","Altura: ", "Sexo: ","¿Otro dato? ", "Promedio de estatura mujeres: 1.6933333333333334" ],
         # Message in case of failure
-        "Revisa que estes calculando bien todos los casos"
+        "Revisa que estes contando y acumulando los datos adecuados para el cálculo del promedio"
     )
 ]

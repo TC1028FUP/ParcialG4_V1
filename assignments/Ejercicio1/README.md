@@ -17,40 +17,31 @@ if __name__ == '__main__':
 ```
 
 ## Descripción del programa  
-Escribe un programa que calcule el monto a pagar de una cuenta de electricidad de un país cercano. Se calcula de acuerdo al consumo de KW consumidos en el mes y de acuerdo a la siguiente tabla y después ve los ejemplos:
+En una tienda prestigiosa de cuyo nombre no quiero acordarme, están en promoción, te dicen que te elijas 3 productos y **te lleves el de menor precio de manera gratuita**. Para esto, requieren un programa que determine cuánto va a pagar el cliente por los 3 productos con esta promoción. 
 
-| KW consumidos |  Monto a pagar  |  
-| :-------------: |:-------------:| 
-| primeros 150     | SIN COSTO    |
-|entre 150 y 300 | 5 por cada KW que exceda de 150 y hasta de 300  |
-|después de 300| 8 por cada KW que exceda de 300 mas los anteriores |
+De manera que, **escribe una función** que reciba como parámetro los ** 3 precios de los productos** que se lleva el cliente y que **nos regrese** (uso de return) el monto a pagar por la promoción.
 
-Así por ejemplo, si en una casa consumen 100 KW, la factura es por 0 pesos.
-
-Otro ejemplo, si en una casa se consumen 180 KW
-- por los primeros 150 no se paga nada
-- por los 30 restantes se paga 150 pesos (30 * 5)
-- En total se paga 150
-
-Otro ejemplo si en una casa se consumieron 350 KW el monto de la factura se calcula:
-- Por los primeros 150 no se paga nada
-- Por los 150 que siguen se paga 750
-- Por los 50 últimos se paga 400 (50 * 8)
-- En total se paga 1150
-
-De manera que, **escribe una función** que reciba como parámetro la **cantidad de KW** que se consumieron y que nos regrese el monto a pagar. 
-En la función main escribe el código necesario para preguntar al usuario la cantidad de KW del mes y usando la función se calcule el monto a pagar y se despliegue.
+En la función main escribe el código necesario para preguntar al usuario los 3 precios de los productos y usando la función definida anteriormente, se calcule el monto a pagar y se despliegue.
 
 **Entrada**  
-La cantidad de KW consumidos (número entero)
+3 valores númericos que pueden ser con punto decimal
 
 **Salida**  
-El monto de la factura con el mensaje correspondiente (ve el ejemplo).
+El monto del ticket con el mensaje correspondiente (ve el ejemplo).
 
 **Ejemplo de ejecución del programa:** 
 ``` 
-Cantidad de KW: 350
-La factura de este mes es por 1150  
+Precio producto: 1234.50
+Precio producto: 725.60
+Precio producto: 1150.25
+Total a pagar por promoción: $2384.75 
+```
+**Otro ejemplo:**
+```
+Precio producto: 123.45
+Precio producto: 231.50
+Precio producto: 123.45
+Total a pagar por promoción: $354.95
 ```
 **Nota:** Por favor no quites nada de lo que ya tienes, simplemente agrega el código 
 necesario dentro de la función main. 
