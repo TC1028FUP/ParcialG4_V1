@@ -46,8 +46,6 @@ Sexo: H
 ¿Otro dato? s
 Altura: 1.70
 Sexo: H
-¿Otro dato? s
-Altura: 1.77
 ¿Otro dato? n
 No capturaste mujeres
 ```
