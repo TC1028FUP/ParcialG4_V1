@@ -9,7 +9,7 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise
 
 
 def main():
-  #escribe aqupi el código para interactuar con el usuario y usar la función
+  #escribe aquí el código para interactuar con el usuario y usar la función
 
 
 if __name__ == '__main__':
